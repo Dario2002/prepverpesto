@@ -7,6 +7,8 @@ import { SearchComponent } from './search/search.component';
 import { ProdottoComponent } from './prodotto/prodotto.component';
 import { IdprodottoComponent } from './idprodotto/idprodotto.component';
 import { AboutComponent } from './about/about.component';
+import { ProductComponent } from './product/product.component';
+import { OllareComponent } from './ollare/ollare.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { AboutComponent } from './about/about.component';
     SearchComponent,
     ProdottoComponent,
     IdprodottoComponent,
-    AboutComponent
+    AboutComponent,
+    ProductComponent,
+    OllareComponent
   ],
   imports: [
     BrowserModule,
